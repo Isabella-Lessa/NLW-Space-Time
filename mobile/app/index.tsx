@@ -2,9 +2,9 @@ import { useEffect } from 'react'
 import { useRouter } from 'expo-router'
 import { Text, TouchableOpacity, View } from 'react-native'
 import { makeRedirectUri, useAuthRequest } from 'expo-auth-session'
+import { api } from '../src/lib/api'
 import * as SecureStore from 'expo-secure-store'
 import NLMLogo from '../src/assets/nlw-spacetime-logo.svg'
-import { api } from '../src/lib/api'
 
 // dp (densidade de pixel), no mobile não tem pixel
 
